@@ -1,9 +1,10 @@
 const assertEqual = require('./assertEqual')
 
-const head = function(value) {
-  for (let i = 0; i < value.length; i++) { 
-  }
-  return value[0];
+const head = function(arr) {
+  let output = arr[0];
+  return output;
 };
 
 module.exports = head;
+
+console.log(head([1, 2, 3]))
